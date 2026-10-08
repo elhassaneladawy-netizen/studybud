@@ -168,6 +168,8 @@ h1, h2, h3 {font-weight: 400; letter-spacing: -0.02em;}
 [data-testid="stAlert"] {border-radius: 14px;}
 [data-testid="stChatMessage"] {background: rgba(255,255,255,0.04); border-radius: 16px;}
 [data-testid="stChatInput"] {border-radius: 16px;}
+.block-container {padding-bottom: 3rem;}
+.block-container::after {content: 'Made by Alhassan Eladawy'; display: block; text-align: center; margin-top: 3rem; padding-top: 1.2rem; border-top: 1px solid rgba(255,255,255,0.08); color: #8f89ad; font-size: 13px;}
 </style>
     """,
     unsafe_allow_html=True,
